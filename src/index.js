@@ -4,10 +4,11 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import Metamask from './components/Metamask';
+import Contracts from './components/Contracts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Metamask />
+  <Contracts />
 );
 
 // If you want to start measuring performance in your app, pass a function
